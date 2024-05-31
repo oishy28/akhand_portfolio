@@ -71,3 +71,10 @@
         margin-top: 5px; /* Adjust space between icon and text */
     }
 }
+
+/* Hide scroll down on smaller screens */
+@media (max-width: 920px) {
+    .scroll-down {
+        display: none; /* Hide the scroll-down button */
+    }
+}

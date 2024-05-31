@@ -30,10 +30,13 @@ function Home() {
               </div>
             </Col>
           </Row>
+          <Row>
+          <ScrollDown />
+          </Row>
         </Container>
 
       </Container>
-      <ScrollDown />
+      
 
       <Home2 />
     </section>
