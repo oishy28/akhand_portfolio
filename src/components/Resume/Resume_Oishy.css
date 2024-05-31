@@ -1,0 +1,43 @@
+.resume {
+    background-color: white;
+    color: black;
+    padding:100px;
+    text-align: left;
+    margin:auto;
+  }
+
+  .header,
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  
+  .header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    align-items: left;
+  }
+  
+  .section a {
+    color: blue; /* Change link color as needed */
+  }
+  

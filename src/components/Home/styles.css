@@ -1,0 +1,6 @@
+.myAvtar img {
+    border: 5px solid #87209e; /* Adjust the width and color of the border as needed */
+    border-radius: 50%;
+     /* Optional: to make the border rounded */
+  }
+  

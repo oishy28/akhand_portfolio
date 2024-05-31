@@ -1,0 +1,29 @@
+.resume-section {
+  padding: 20px 0;
+}
+
+.pdf-document {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+/*make the pages width and length shorter */
+
+
+
+.pdf-page {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  padding: 0;
+  margin: 0; /* Ensure no margins are added */
+  width: 50%;
+}
