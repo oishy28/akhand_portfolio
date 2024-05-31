@@ -282,6 +282,8 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  text-align: center;
+  margin: auto;
 }
 
 .home-section {
@@ -295,7 +297,6 @@ button:focus {
   padding-top: 90px !important;
   color: #F4BBC9; /* Or any color that suits your design, as linear-gradient is not valid for color */
 }
-
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -316,7 +317,6 @@ button:focus {
   color: #F4BBC9; /* Or any color that suits your design */
 }
 
-
 .heading {
   font-size: 2.4em !important;
   padding-left: 50px !important;
@@ -331,14 +331,85 @@ button:focus {
   color: #cd5ff8;
 }
 
+.type-wrapper {
+  padding: 30px;
+  text-align: center;
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-header {
+    padding-top: 60px !important;
+  }
+
+  .heading {
+    padding-left: 30px !important;
+    font-size: 2rem !important;
+  }
+
+  .heading-name {
+    padding-left: 25px !important;
+    font-size: 1.75rem !important;
+  }
+
+  .type-wrapper {
+    padding: 20px;
+    font-size: 1.25rem; /* Adjust as needed */
+  }
+
+  .home-section {
+    padding-top: 70px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .home-about-section {
+    padding-top: 60px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-header {
+    padding-top: 40px !important;
+  }
+
+  .heading {
+    padding-left: 20px !important;
+    font-size: 1.5rem !important;
+  }
+
+  .heading-name {
+    padding-left: 15px !important;
+    font-size: 1.5rem !important;
+  }
+
+  .type-wrapper {
+    padding: 15px;
+    font-size: 1rem; /* Adjust as needed */
+  }
+
+  .home-section {
+    padding-top: 50px !important;
+    padding-bottom: 60px !important;
+  }
+
+  .home-about-section {
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+  }
+}
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
+  background-color: rgb(255, 242, 251) !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
+
 }
 
 @media (max-width: 767px) {

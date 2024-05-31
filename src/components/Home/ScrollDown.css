@@ -1,3 +1,5 @@
+/* ScrollDown.css */
+
 .scroll-down {
     position: absolute;
     bottom: 20px;
@@ -38,5 +40,34 @@
     }
     60% {
         transform: translateY(-5px);
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .scroll-icon {
+        font-size: 2rem; /* Smaller icon size */
+    }
+
+    .scroll-text {
+        font-size: 0.875rem; /* Smaller text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .scroll-button {
+        background: white; /* White circular background */
+        border-radius: 50%; /* Make it circular */
+        padding: 10px; /* Padding for the circle */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visual separation */
+    }
+
+    .scroll-icon {
+        font-size: 2rem; /* Adjust size as needed */
+    }
+
+    .scroll-text {
+        font-size: 0.875rem; /* Adjust size as needed */
+        margin-top: 5px; /* Adjust space between icon and text */
     }
 }

@@ -1,43 +1,118 @@
+/* Resume_Oishy.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9; /* Optional: light background color for contrast */
+}
+
 .resume {
-    background-color: white;
-    color: black;
-    padding:100px;
-    text-align: left;
-    margin:auto;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  max-width: 800px; /* Ensures the resume is centered and has a maximum width */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visual separation */
+}
+
+.header,
+.section {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.section a {
+  color: blue; /* Change link color as needed */
+}
+
+.section hr {
+  margin: 10px 0;
+}
+
+.education,
+.experience,
+.projects,
+.achievements {
+  padding-left: 20px;
+}
+
+.skills,
+.projects ul,
+.achievements {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li,
+.projects li,
+.achievements li {
+  margin-bottom: 10px;
+}
+
+.projects li h3 {
+  margin: 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .resume {
+    padding: 10px;
   }
 
-  .header,
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  
   .header h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .header p {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  .section h2 {
     font-size: 20px;
-    margin-bottom: 10px;
   }
-  
-  .section p {
-    font-size: 16px;
-    margin-bottom: 10px;
-    align-items: left;
+
+  .header p {
+    font-size: 14px;
   }
-  
+
+  .section h2 {
+    font-size: 18px;
+  }
+
+  .section p,
   .section a {
-    color: blue; /* Change link color as needed */
+    font-size: 14px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .header h1 {
+    font-size: 18px;
+  }
+
+  .header p {
+    font-size: 12px;
+  }
+
+  .section h2 {
+    font-size: 16px;
+  }
+
+  .section p,
+  .section a {
+    font-size: 12px;
+  }
+}

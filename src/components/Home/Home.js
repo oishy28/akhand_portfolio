@@ -25,14 +25,15 @@ function Home() {
                 <br/>also a</strong> <br />
               </h1>
 
-              <div style={{ padding: 30, textAlign: "center" ,fontSize: 25 }}>
+              <div style={{ padding: 30, textAlign: "center" ,fontSize: 25}}>
                 <Type />
               </div>
             </Col>
           </Row>
         </Container>
-        <ScrollDown />
+
       </Container>
+      <ScrollDown />
 
       <Home2 />
     </section>
