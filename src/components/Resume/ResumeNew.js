@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
-import { Container, Row, Button, Col } from "react-bootstrap";
+import React from "react";
+import { Container, Row, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import pdf from "../../Assets/../Assets/Oishy_Fatema_Akhand_cv.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import {  pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "./ResumeNew.css";
 import Resume from "./Resume_Oishy";
@@ -11,15 +11,10 @@ import Resume from "./Resume_Oishy";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
-  const [width, setWidth] = useState(window.innerWidth);
+  
 
-  useEffect(() => {
-    const handleResize = () => setWidth(window.innerWidth);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
-  const scale = width > 786 ? 1.3 : 0.6;
+
 
   return (
     <div>

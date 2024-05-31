@@ -6,7 +6,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebook, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaFacebook,  FaEnvelope } from "react-icons/fa";
 import "./styles.css";
 
 function Home2() {

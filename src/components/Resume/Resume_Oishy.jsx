@@ -1,7 +1,6 @@
 import React from 'react';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './Resume_Oishy.css';
-import { Link } from 'react-router-dom';
 
 const Resume_Oishy = () => {
   return (
