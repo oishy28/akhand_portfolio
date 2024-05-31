@@ -33,7 +33,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  illustration and animation.
                 </b>
               </i>
               <br />
@@ -43,9 +43,8 @@ function Home2() {
               <i>
                 <br/>
                 I am dedicated to continuous
-                learning and have recently started working on a research project in.
+                learning and have recently started working on a research project that focuses on 
               </i>
-              &nbsp; like
               <i>
                 <b className="purple">  ML, NLP, and LLM</b>.
               </i>
